@@ -18,9 +18,9 @@ def save_data(data):
 # Keywords dictionary and their growth impact
 # Positive: +10%, Neutral: +5%, Negative: 0%
 KEYWORDS = {
-    "happy": 10, "great": 10, "excited": 10, "good": 10, "awesome": 10,
-    "tired": 5, "okay": 5, "normal": 5, "fine": 5, "alright":5,
-    "sad": 0, "bad": 0, "angry": 0, "depressed": 0, "terrible": 0
+    "happy": 10, "great": 10, "excited": 10, "good": 10, "awesome": 10, "joyful":10, "amazing":10, "ecstatic":10, "thrilled":10, "at ease":10, "cheerful":10, "gleeful":10, "contented":10, "serene":10, 
+    "tired": 5, "okay": 5, "normal": 5, "fine": 5, "alright":5, "decent":5, "well":5, "average":5, "tolerable":5, "passable":5,
+    "sad": 0, "bad": 0, "angry": 0, "depressed": 0, "terrible": 0, "unwell":0, "disappointed":0, "guilty":0, "remorseful":0, "heartbroken":0, "distressed":0, "awful":0, "sick":0, "hopeless":0,
 }
 
 st.title("🌱🤍 CutePlantPal")
