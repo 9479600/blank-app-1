@@ -64,7 +64,7 @@ if user_name:
             else:
                 st.warning("Your plant didn't feel like much growth today. Remember, 'Do the best you can until you know better. Then when you know better, do better' -Maya Angelou, so lets keep going!❤️")
         else:
-            st.warning("No keywords detected, but thank you for sharing your thoughts.")
+            st.info("No keywords detected, but thank you for sharing your thoughts.")
 
     # 3. Visualizing the Plant
     st.divider()
