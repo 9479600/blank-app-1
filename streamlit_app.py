@@ -62,7 +62,7 @@ if user_name:
             if growth_points > 0:
                 st.success(f"Your plant grew by {growth_points}%!")
             else:
-                st.warning("Your plant didn't feel like much growth today. Remember, "Do the best you can until you know better. Then when you know better, do better" -Maya Angelou, so lets keep going!❤️")
+                st.warning("Your plant didn't feel like much growth today. Remember, 'Do the best you can until you know better. Then when you know better, do better' -Maya Angelou, so lets keep going!❤️")
         else:
             st.info("No keywords detected, but thank you for sharing your thoughts.")
 
