@@ -49,7 +49,7 @@ if user_name:
         # Search for keywords in the text
         for word, points in KEYWORDS.items():
             if word in report:
-                growth_points = points
+                growth_points += points
                 found_keywords = True
                 # Take the first match
         
