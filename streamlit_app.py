@@ -51,7 +51,7 @@ if user_name:
             if word in report:
                 growth_points += points
                 found_keywords = True
-                # Take the first match
+              
         
         if found_keywords:
             # Update growth (max 100%)
